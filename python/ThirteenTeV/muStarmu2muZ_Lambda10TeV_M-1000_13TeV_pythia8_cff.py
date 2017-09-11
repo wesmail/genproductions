@@ -16,7 +16,6 @@ generator = cms.EDFilter("Pythia8GeneratorFilter",
         pythia8CommonSettingsBlock,
         pythia8CUEP8M1SettingsBlock,
         processParameters = cms.vstring(
-            'Tune: pp 5',
             'ExcitedFermion:qqbar2muStarmu = on',
             'ExcitedFermion:Lambda = 10000',
             '4000013:onMode = off',
